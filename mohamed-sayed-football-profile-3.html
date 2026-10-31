@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الملف الرياضي للاعب محمد سيد">
+  <title>محمد سيد | لاعب كرة قدم</title>
+  <style>
+    :root{--gold:#e6bd62;--bg:#080d18;--panel:#111b2c;--muted:#aab5c7;--white:#f7f8fb}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--white);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+    header{padding:22px 0;border-bottom:1px solid #ffffff18;background:#080d18eF;position:sticky;top:0;z-index:5}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+    .brand{font-weight:800;color:var(--gold);letter-spacing:.5px}.links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+    .hero{padding:65px 0 55px;background:radial-gradient(ellipse at 15% 15%,#23395c 0,transparent 48%),linear-gradient(130deg,#0a1221,#101c30)}
+    .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:35px;align-items:center}
+    .eyebrow{color:var(--gold);font-weight:bold}.hero h1{font-size:clamp(38px,7vw,68px);line-height:1.2;margin:12px 0}.hero p{color:var(--muted);max-width:650px}
+    .tag{display:inline-block;border:1px solid #e6bd6270;color:var(--gold);border-radius:30px;padding:5px 15px;margin:5px 5px 0 0;font-size:14px}
+    .photo-frame{background:linear-gradient(145deg,#1b2b43,#0b1321);border:1px solid #e6bd6260;border-radius:24px;padding:12px;max-width:330px;margin:auto;box-shadow:0 20px 60px #0008}
+    .photo-frame img{width:100%;height:360px;object-fit:cover;border-radius:16px;display:block;background:#18263a}
+    .photo-hint{text-align:center;color:var(--muted);font-size:12px;margin:7px 0 0}
+    section{padding:55px 0}.section-title{font-size:27px;margin:0 0 22px}.section-title span{color:var(--gold)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:var(--panel);border:1px solid #ffffff12;border-radius:18px;padding:22px}
+    .card h3{margin:0 0 8px;color:var(--gold)}.muted{color:var(--muted)}
+    .club{display:flex;align-items:center;gap:18px}.logo{width:92px;height:92px;border-radius:18px;object-fit:contain;background:#f4f5f7;padding:8px}
+    .stat{font-size:27px;font-weight:800;color:var(--gold);direction:ltr;text-align:right}
+    .note{font-size:13px;color:var(--muted)}
+    .field{height:190px;border:2px solid #3e9a6b;border-radius:14px;position:relative;overflow:hidden;background:repeating-linear-gradient(90deg,#123d31 0 12.5%,#164a39 12.5% 25%)}
+    .field:before{content:"";position:absolute;inset:10px;border:2px solid #b7d9c0aa;border-radius:4px}
+    .field:after{content:"";position:absolute;width:100px;height:100px;border:2px solid #b7d9c0aa;border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%)}
+    .position{text-align:center;margin-top:12px;color:var(--gold);font-weight:bold}
+    footer{border-top:1px solid #ffffff18;padding:25px 0;text-align:center;color:var(--muted);font-size:13px}
+    @media(max-width:760px){.hero-grid{grid-template-columns:1fr}.photo-frame{max-width:260px}.photo-frame img{height:290px}.grid{grid-template-columns:1fr}.links{gap:10px;font-size:12px}.hero{padding-top:42px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <div class="brand">MOHAMED SAYED</div>
+  <div class="links"><a href="#about">عن اللاعب</a><a href="#club">النادي</a><a href="#stats">الأرقام</a><a href="#position">مركزي</a></div>
+</nav></div></header>
+
+<main>
+  <div class="hero"><div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">ملف لاعب كرة قدم</div>
+      <h1>محمد سيد</h1>
+      <p>لاعب كرة قدم — جناح أيسر. السرعة، التحرك وصناعة الفرص جزء من أسلوبي داخل الملعب.</p>
+      <span class="tag">جناح أيسر</span><span class="tag">هداف الدوري</span>
+    </div>
+    <div class="photo-frame">
+      <!-- ارفع صورتك في نفس مجلد الموقع باسم player-photo.jpg -->
+      <img src="player-photo.jpg" alt="صورة محمد سيد" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <div style="display:none;height:360px;place-items:center;text-align:center;color:#c7d1e0;border-radius:16px;background:#18263a">
+        <div><div style="font-size:48px">⚽</div><b>مكان صورتك الشخصية</b><div class="note">أضف صورة باسم player-photo.jpg</div></div>
+      </div>
+      <div class="photo-hint">الصورة الشخصية</div>
+    </div>
+  </div></div>
+
+  <section id="about"><div class="wrap">
+    <h2 class="section-title">عن <span>اللاعب</span></h2>
+    <div class="card"><p>أنا محمد سيد، لاعب كرة قدم بمركز الجناح الأيسر. أركز على تطوير مستواي والعمل مع الفريق وتقديم أفضل أداء في المباريات.</p></div>
+  </div></section>
+
+  <section id="club" style="background:#0c1422"><div class="wrap">
+    <h2 class="section-title">النادي <span>والفريق</span></h2>
+    <div class="card club">
+      <!-- ارفع شعار النادي في نفس مجلد الموقع باسم club-logo.png -->
+      <img class="logo" src="club-logo.png" alt="شعار النادي" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <div style="display:none;width:92px;height:92px;border-radius:18px;background:#f4f5f7;color:#172238;place-items:center;text-align:center;font-size:12px">مكان<br>شعار النادي</div>
+      <div><h3>اسم النادي</h3><div class="muted">أضف اسم ناديك هنا</div><div class="note">الشعار: أضف صورة باسم club-logo.png</div></div>
+    </div>
+  </div></section>
+
+  <section id="stats"><div class="wrap">
+    <h2 class="section-title">الأرقام <span>والإنجازات</span></h2>
+    <div class="grid">
+      <div class="card"><h3>إنجاز</h3><div class="stat" style="direction:rtl">هداف الدوري</div><div class="note">وفق المعلومة التي زودتني بها</div></div>
+      <div class="card"><h3>المشاركات</h3><div class="stat">—</div><div class="note">تُضاف عند توفر الرقم</div></div>
+      <div class="card"><h3>الأهداف والتمريرات</h3><div class="stat">—</div><div class="note">تُضاف الإحصائيات الموثقة لاحقًا</div></div>
+    </div>
+    <p class="note" style="margin-top:15px">ملاحظة: الأفضل عدم نشر تفاصيل الراتب أو المكافآت المالية على موقع عام؛ خليها خاصة بينك وبين النادي.</p>
+  </div></section>
+
+  <section id="position" style="background:#0c1422"><div class="wrap">
+    <h2 class="section-title">مركزي <span>داخل الملعب</span></h2>
+    <div class="card"><div class="field"></div><div class="position">الجناح الأيسر</div><p class="muted" style="text-align:center">التحرك على الطرف وصناعة الفرص ومساندة الهجوم.</p></div>
+  </div></section>
+</main>
+<footer><div class="wrap">© محمد سيد — الملف الرياضي الشخصي</div></footer>
+</body>
+</html>
